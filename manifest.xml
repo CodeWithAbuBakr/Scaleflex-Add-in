@@ -12,6 +12,7 @@
   <AppDomains>
     <AppDomain>https://localhost:3000</AppDomain>
     <AppDomain>https://oauth2.sfxconnector.com</AppDomain>
+    <AppDomain>https://hub.scaleflex.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Presentation"/>

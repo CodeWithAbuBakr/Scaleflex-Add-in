@@ -9,22 +9,25 @@
 </head>
 
 <body>
-    <p>redirecting...</p>
+    <p>Redirecting...</p>
 
     <script>
-        const params = new URLSearchParams(window.location.search);
-        const code = params.get('code');
-        const state = params.get('state');
-        console.log(params, code, state);
+        Office.onReady(function () {
+            const params = new URLSearchParams(window.location.search);
+            const code = params.get('code');
+            const state = params.get('state');
+            console.log(params, code, state);
 
-        const storedState = localStorage.getItem('oauth_state');
-        if (state !== storedState) {
-            Office.context.ui.messageParent(JSON.stringify({ error: 'State mismatch' }));
-        } else if (code) {
-            Office.context.ui.messageParent(JSON.stringify({ code }));
-        } else {
-            Office.context.ui.messageParent(JSON.stringify({ error: 'No code returned' }));
-        }
+            const storedState = localStorage.getItem('oauth_state');
+
+            if (state !== storedState) {
+                Office.context.ui.messageParent(JSON.stringify({ error: 'State mismatch' }));
+            } else if (code) {
+                Office.context.ui.messageParent(JSON.stringify({ code }));
+            } else {
+                Office.context.ui.messageParent(JSON.stringify({ error: 'No code returned' }));
+            }
+        });
     </script>
 </body>
 
