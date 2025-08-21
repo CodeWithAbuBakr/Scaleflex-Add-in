@@ -8,7 +8,7 @@
   <Description DefaultValue="A template to get started with Scaleflex DAM."/>
   <IconUrl DefaultValue="https://codewithabubakr.github.io/Scaleflex-Add-in/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://codewithabubakr.github.io/Scaleflex-Add-in/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://www.contoso.com/help"/>
+  <SupportUrl DefaultValue="https://scaleflex.zendesk.com"/>
   <AppDomains>
     <AppDomain>https://localhost:3000</AppDomain>
     <AppDomain>https://oauth2.sfxconnector.com</AppDomain>
