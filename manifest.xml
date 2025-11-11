@@ -2,10 +2,10 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>8883f956-86d9-4faa-b9f4-0f432bc02379</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Scaleflex DAM</ProviderName>
+  <ProviderName>Scaleflex SAS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Scaleflex DAM"/>
-  <Description DefaultValue="A template to get started with Scaleflex DAM."/>
+  <Description DefaultValue="Connect to your digital assets library. Search, preview, use or upload images. Export to the DAM."/>
   <IconUrl DefaultValue="https://oauth2.sfxconnector.com/ms365-client/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="https://oauth2.sfxconnector.com/ms365-client/assets/icon-64.png"/>
   <SupportUrl DefaultValue="https://scaleflex.zendesk.com"/>
@@ -74,13 +74,13 @@
         <bt:Url id="Taskpane.Url" DefaultValue="https://oauth2.sfxconnector.com/ms365-client/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="GetStarted.Title" DefaultValue="Get started with Scaleflex DAM"/>
+        <bt:String id="GetStarted.Title" DefaultValue="Connected to Scaleflex DAM"/>
         <bt:String id="CommandsGroup.Label" DefaultValue="Add-in"/>
         <bt:String id="TaskpaneButton.Label" DefaultValue="Scaleflex DAM"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="GetStarted.Description" DefaultValue="Perform an action when clicked on Scaleflex DAM"/>
-        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open Scaleflex DAM"/>
+        <bt:String id="GetStarted.Description" DefaultValue="Browse and insert images from your library to enrich your presentation."/>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Click to open the Scaleflex DAM asset library"/>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
